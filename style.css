@@ -234,3 +234,106 @@ h2 {
 .btn:hover {
   transform: translateY(-2px);
 }
+
+/* =========================
+   ABOUT
+========================= */
+.about-grid {
+  display: grid;
+  grid-template-columns: 0.92fr 1.08fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-image {
+  min-height: 520px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.about-copy p {
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.about-points {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.about-points div {
+  padding: 22px;
+  border-radius: var(--radius-md);
+  background: #eee5d9;
+}
+
+.about-points strong {
+  display: block;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
+.about-points span {
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+/* =========================
+   MENU PROFILE
+========================= */
+.menu-groups {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.menu-group {
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: #eee5d9;
+}
+
+.menu-group-image {
+  height: 310px;
+  overflow: hidden;
+}
+
+.menu-group-image img {
+  transition: transform 0.5s ease;
+}
+
+.menu-group:hover .menu-group-image img {
+  transform: scale(1.05);
+}
+
+.menu-group-content {
+  padding: 34px;
+}
+
+.menu-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.menu-group h3 {
+  margin: 8px 0 20px;
+  font-size: 1.7rem;
+}
+
+.menu-group ul {
+  list-style: none;
+}
+
+.menu-group li {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(44, 36, 31, 0.1);
+  color: var(--muted);
+}
+
+.menu-group li:last-child {
+  border-bottom: 0;
+}
