@@ -1,128 +1,211 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Nusa Brew - Coffee shop profile website"
-    />
-    <title>Nusa Brew | Coffee Shop Profile</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nusa Brew - Coffee shop profile website" />
+  <title>Nusa Brew | Coffee Shop Profile</title>
 
-    <!-- Google Font: Poppins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Google Font: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <header class="navbar">
-      <a href="#home" class="logo">NUSA<span>BREW</span></a>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#home" class="logo">NUSA<span>BREW</span></a>
 
-      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+    <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 
-      <nav class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#menu">Menu</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <main class="page-shell">
-      <!-- HERO -->
-      <section class="hero rounded-section" id="home">
-        <!-- GANTI src DI BAWAH DENGAN FOTO COFFEE SHOP ANDA -->
-        <img
-          class="hero-bg"
-          src="images/hero-coffeeshop.jpg"
-          alt="Suasana coffee shop Nusa Brew"
-        />
+  <main class="page-shell">
+    <!-- HERO -->
+    <section class="hero rounded-section" id="home">
+      <!-- GANTI src DI BAWAH DENGAN FOTO COFFEE SHOP ANDA -->
+      <img
+        class="hero-bg"
+        src="images/hero-coffeeshop.jpg"
+        alt="Suasana coffee shop Nusa Brew"
+      />
 
-        <div class="hero-overlay"></div>
+      <div class="hero-overlay"></div>
 
-        <div class="hero-content reveal">
-          <p class="eyebrow">COFFEE • SPACE • STORY</p>
-          <h1>Good coffee.<br />Good space.<br />Good stories.</h1>
-          <p>
-            Tempat sederhana untuk menikmati kopi, berbagi cerita, dan mengambil
-            jeda dari kesibukan sehari-hari.
-          </p>
+      <div class="hero-content reveal">
+        <p class="eyebrow">COFFEE • SPACE • STORY</p>
+        <h1>Good coffee.<br />Good space.<br />Good stories.</h1>
+        <p>
+          Tempat sederhana untuk menikmati kopi, berbagi cerita,
+          dan mengambil jeda dari kesibukan sehari-hari.
+        </p>
 
-          <a href="#about" class="btn">Explore Nusa Brew</a>
-        </div>
-      </section>
+        <a href="#about" class="btn">Explore Nusa Brew</a>
+      </div>
+    </section>
 
-      <!-- BRAND STORYY -->
-      <section class="story-card rounded-section">
-        <div class="story-image reveal">
-          <!-- GANTI DENGAN FOTO PRODUK / SUASANA -->
-          <img
-            src="images/brand-story.jpg"
-            alt="Suasana dan produk Nusa Brew"
-          />
+    <!-- ABOUT -->
+    <section class="content-card rounded-section" id="about">
+      <div class="section-head reveal">
+        <p class="eyebrow">ABOUT US</p>
+        <h2>Lebih dari sekadar tempat minum kopi.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <!-- GANTI src DENGAN FOTO INTERIOR / BARISTA -->
+          <img src="images/about-coffeeshop.jpg" alt="Interior coffee shop" />
         </div>
 
-        <div class="story-content reveal">
-          <p class="eyebrow">OUR IDENTITY</p>
-          <h2>Simple, warm, and memorable.</h2>
+        <div class="about-copy reveal">
           <p>
-            Identitas Nusa Brew dibangun dari warna natural, bentuk yang lembut,
-            dan pengalaman yang tidak berlebihan. Kami ingin setiap orang merasa
-            nyaman sejak pertama kali masuk.
+            Nusa Brew adalah coffee shop dengan karakter hangat, modern,
+            dan santai. Kami ingin menghadirkan tempat yang nyaman untuk
+            bertemu teman, bekerja, membaca, atau sekadar menikmati waktu sendiri.
           </p>
 
-          <div class="brand-tags">
-            <span>Warm</span>
-            <span>Minimal</span>
-            <span>Local</span>
-            <span>Friendly</span>
+          <p>
+            Setiap elemen dirancang untuk menghadirkan suasana yang sederhana
+            namun tetap berkarakter, mulai dari pilihan kopi, interior,
+            musik, hingga pelayanan.
+          </p>
+
+          <div class="about-points">
+            <div>
+              <strong>01</strong>
+              <span>Local Coffee</span>
+            </div>
+            <div>
+              <strong>02</strong>
+              <span>Comfort Space</span>
+            </div>
+            <div>
+              <strong>03</strong>
+              <span>Warm Experience</span>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- GALLERY -->
-      <section class="content-card rounded-section" id="gallery">
-        <div class="section-head center reveal">
-          <p class="eyebrow">GALLERY</p>
-          <h2>A glimpse of our space.</h2>
-          <p class="section-desc">
-            Ganti semua gambar di bawah dengan dokumentasi coffee shop Anda.
-          </p>
+    <!-- PROFILE MENU -->
+    <section class="content-card rounded-section" id="menu">
+      <div class="section-head center reveal">
+        <p class="eyebrow">OUR MENU</p>
+        <h2>Menu yang menjadi bagian dari karakter kami.</h2>
+        <p class="section-desc">
+          Bagian ini hanya menampilkan profil menu, tanpa fitur pemesanan.
+        </p>
+      </div>
+
+      <div class="menu-groups">
+        <div class="menu-group reveal">
+          <div class="menu-group-image">
+            <!-- GANTI DENGAN FOTO MINUMAN -->
+            <img src="images/coffee-menu.jpg" alt="Pilihan menu kopi" />
+          </div>
+          <div class="menu-group-content">
+            <span class="menu-label">COFFEE</span>
+            <h3>Signature Coffee</h3>
+            <ul>
+              <li>Americano</li>
+              <li>Sea Salt Butter Coffee</li>
+              <li>Mochaccino</li>
+              <li>Cappuccino</li>
+              <li>Caramel Macchiato</li>
+              <li>Cafe Latte</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="gallery-grid">
-          <figure class="gallery-item large reveal">
-            <img src="images/img1.jpg" alt="Galeri coffee shop 1" />
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="images/img2.jpg" alt="Galeri coffee shop 2" />
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="images/img3.jpg" alt="Galeri coffee shop 3" />
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="images/img4.jpg" alt="Galeri coffee shop 4" />
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="images/img5.jpg" alt="Galeri coffee shop 5" />
-          </figure>
+        <div class="menu-group reveal">
+          <div class="menu-group-image">
+            <!-- GANTI DENGAN FOTO CAMILAN -->
+            <img src="images/snack-menu.jpg" alt="Pilihan camilan" />
+          </div>
+          <div class="menu-group-content">
+            <span class="menu-label">SNACKS</span>
+            <h3>Light Bites</h3>
+            <ul>
+              <li>Banana Toast</li>
+              <li>French Fries</li>
+              <li>Mix Platter</li>
+              <li>Butter Croissant</li>
+              <li>Toast & Spread</li>
+              <li>Chicken Bites</li>
+            </ul>
+          </div>
         </div>
-      </section>
-    </main>
-  </body>
-</html>
+      </div>
+    </section>
+
+    <!-- BRAND STORY -->
+    <section class="story-card rounded-section">
+      <div class="story-image reveal">
+        <!-- GANTI DENGAN FOTO PRODUK / SUASANA -->
+        <img src="images/brand-story.jpg" alt="Suasana dan produk Nusa Brew" />
+      </div>
+
+      <div class="story-content reveal">
+        <p class="eyebrow">OUR IDENTITY</p>
+        <h2>Simple, warm, and memorable.</h2>
+        <p>
+          Identitas Nusa Brew dibangun dari warna natural, bentuk yang lembut,
+          dan pengalaman yang tidak berlebihan. Kami ingin setiap orang
+          merasa nyaman sejak pertama kali masuk.
+        </p>
+
+        <div class="brand-tags">
+          <span>Warm</span>
+          <span>Minimal</span>
+          <span>Local</span>
+          <span>Friendly</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="content-card rounded-section" id="gallery">
+      <div class="section-head center reveal">
+        <p class="eyebrow">GALLERY</p>
+        <h2>A glimpse of our space.</h2>
+        <p class="section-desc">
+          Ganti semua gambar di bawah dengan dokumentasi coffee shop Anda.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item large reveal">
+          <img src="images/img1.jpg" alt="Galeri coffee shop 1" />
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <img src="images/img2.jpg" alt="Galeri coffee shop 2" />
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <img src="images/img3.jpg" alt="Galeri coffee shop 3" />
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <img src="images/img4.jpg" alt="Galeri coffee shop 4" />
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <img src="images/img5.jpg" alt="Galeri coffee shop 5" />
+        </figure>
+      </div>
+    </section>
